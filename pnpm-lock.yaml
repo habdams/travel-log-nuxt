@@ -837,7 +837,10 @@ packages:
       minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
+      - bufferutil
       - supports-color
+      - utf-8-validate
+    dev: false
 
   /@eslint/js@9.27.0:
     resolution: {integrity: sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==}
